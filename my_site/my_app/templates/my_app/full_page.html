@@ -1,0 +1,207 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FULL PAGE</title>
+    {% load static %}
+    <link  rel="stylesheet" href="{% static 'full_page.css' %}">
+    <script src="https://kit.fontawesome.com/c6f06a4408.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="static/logo.png" alt="" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>HI,I'm  <span> Kevin </span><br> Jen From India</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- about -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-co1-1">
+<!--                    {% load static %} -->
+<!--                    <img src="{% static "user.jpg" %}" alt="home" />-->
+                    <img src="static/user.png" alt="">
+                </div>
+                <div class="about-co1-2">
+                    <h1 class="sub" >About me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Ipsa accusantium, tenetur temporibus sequi tempore  <br> enim odio excepturi? Ipsa dolor, molestias,  porro a <br> voluptas alias inventore commodi, quo cumque animi aliquam?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onlink="opentab('skills')">Skills</p>
+                        <p class="tab-links" onlink="opentab('experience')">Experience</p>
+                        <p class="tab-links" onlink="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Desiging Wwb/App interfaces</li>
+                            <li><span>Web development</span><br>Web app development</li>
+                            <li><span>App development</span><br>Building Android/ios development</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI?UX</span><br>Desiging Wwb/App interfaces</li>
+                            <li><span>Web development</span><br>Web app development</li>
+                            <li><span>App development</span><br>Building Android/ios development</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI?UX</span><br>Desiging Wwb/App interfaces</li>
+                            <li><span>Web development</span><br>Web app development</li>
+                            <li><span>App development</span><br>Building Android/ios development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- service section -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub" >MY Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designer</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus, quasi in sapiente eligendi quibusdam reprehenderit quod quia vel repellendus voluptate?
+                        Alias unde repellendus maiores. Nesciunt quia amet laborum distinctio.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Ui Designer</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus, quasi in sapiente eligendi quibusdam reprehenderit quod quia vel repellendus voluptate?
+                        Alias unde repellendus maiores. Nesciunt quia amet laborum distinctio.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>W Designer</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus, quasi in sapiente eligendi quibusdam reprehenderit quod quia vel repellendus voluptate?
+                        Alias unde repellendus maiores. Nesciunt quia amet laborum distinctio.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- #portfilo tab -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub" >My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="static/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media APP</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quae reprehenderit velit ducimus minima cumque? Ut, pariatur nesciunt? Harum,
+                            repellendus optio tenetur ea deserunt ipsam! Impedit voluptas cum itaque molestias.</p>
+                        <a href="#"><i class="fa-light fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="static/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media APP</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quae reprehenderit velit ducimus minima cumque? Ut, pariatur nesciunt? Harum,
+                            repellendus optio tenetur ea deserunt ipsam! Impedit voluptas cum itaque molestias.</p>
+                        <a href="#"><i class="fa-light fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="static/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media APP</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quae reprehenderit velit ducimus minima cumque? Ut, pariatur nesciunt? Harum,
+                            repellendus optio tenetur ea deserunt ipsam! Impedit voluptas cum itaque molestias.</p>
+                        <a href="#"><i class="fa-light fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn" >See more</a>
+        </div>
+    </div>
+
+    <!-- contact form -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub" >Contact</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ravi-teja-917913245/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/ravi-teja-917913245/"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.linkedin.com/in/ravi-teja-917913245/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ravi-teja-917913245/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Kevin. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+
+        }
+    </script>
+</body>
+</html>
